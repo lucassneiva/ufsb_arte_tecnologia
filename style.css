@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+h1{
+    padding: 20px 0;
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.header{
+    background-color: rgba(82, 82, 224, 0.479);
+    padding: 10px;
+    margin: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer{
+    background-color: rgba(82, 82, 224, 0.479);
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .member-01{
+border-radius: 45%;
+} */
+.member-picture{
+border-radius: 45%; 
+text-align: center;
+margin:40px 0;
+font-size:20px;
+padding: 5px 0;
+}
+
+.h3-members{
+color:rgb(76, 118, 233);
+}
+
+.all-members-card{  
+    text-align: center;
+    margin:23px 0 0 0;
+    font-size:20px;
+    color: rgb(0, 0, 0); 
+    font-weight:bold; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .member-01{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+    padding: 5px 0;
+    border-radius: 45%;
+  }
+
+
+  .FooterButton{ 
+    background-color: #cf3acfd7;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    } 
+
+    .HeaderButton{ 
+        background-color: #cf3acfd7;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
